@@ -1,0 +1,5 @@
+<!--pages/start/start.wxml-->
+<view class="container">
+  <text>吃饭不积极，脑筋有问题</text>
+  <button class="start" bindtap="starttap">开吃</button>
+</view>

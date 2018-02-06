@@ -1,0 +1,8 @@
+<!--foodselector.wxml-->
+<view class="container" bindtap="stopSelect">
+  <text class="foodname">{{foodname}}</text>
+  <text class="bottomtips">点击选择，选到哪个吃哪个</text>
+  <view class="container" wx:for="{{foodcloud}}" wx:for-item="food" wx:key="id">
+    <text class="textcloud" style="left:{{food['left']}}rpx;top:{{food['top']}}rpx;opacity:{{food['opacity']}};font-size:{{food['fontsize']}}px;color:{{food['color']}}">{{food['name']}}</text>
+  </view>
+</view>

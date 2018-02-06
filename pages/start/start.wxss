@@ -1,0 +1,5 @@
+/* pages/start/start.wxss */
+.start {
+  width: 300rpx;
+  margin-top: 200rpx;
+}
